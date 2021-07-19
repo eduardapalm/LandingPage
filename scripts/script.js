@@ -1,4 +1,4 @@
-function changeText(e) {
-  e.preventDefault();
-  return document.getElementById('button1').innerHTML ='Obrigado por se cadastrar';
+function changeText(event) {
+  event.preventDefault();
+  return document.getElementById('button1').onclick = document.getElementById('button1').innerHTML ='Obrigado por se cadastrar';
 }
