@@ -174,12 +174,13 @@ main {
 }
 
 #form-tag .form-side .button-separation button:hover{
-  transition: 0.2s;
+  /* transition: 0.2s; */
   filter: drop-shadow(0rem 0.25rem 0.25rem rgba(0, 0, 0, 0.25));
   background-color: darkblue;
 }
 
 #form-tag .form-side .button-separation button:focus{
+  filter: drop-shadow(0rem 0.25rem 0.25rem rgba(0, 0, 0, 0.25));
   background-color: #939393;
   margin: -5rem 0 3rem -2.3rem ;
   padding: 0 6.625rem;

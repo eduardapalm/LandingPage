@@ -8,11 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Rufina:wght@400;700&display=swap" rel="stylesheet">
-  <script>
-    function textChange(){
-      document.getElementById('button1').innerHTML = 'Obrigado por se cadastrar'
-    }
-  </script>
+  <script src="./scripts/script.js"></script>
   <link rel="stylesheet" href="./style/main.css">
   <title>BLACK FRIDAY - HotSpot</title>
 </head>
@@ -57,7 +53,7 @@
             <label for="email">Digite abaixo o seu email:</label>
             <input type="text" placeholder="exemplo@email.com" name="email">
             <div class="button-separation">
-              <button id="button1" onClick="textChange()">Cadastrar</button>
+              <button id="button1" onClick="return changeText()">Cadastrar</button>
             </div>
           </form>
         </div>
