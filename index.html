@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" type="image/x-icon" href="./assets/favicon.ico">  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rufina:wght@400;700&display=swap" rel="stylesheet">
+  <script>
+    function textChange(){
+      document.getElementById('button1').innerHTML = 'Obrigado por se cadastrar'
+    }
+  </script>
+  <link rel="stylesheet" href="./style/main.css">
+  <title>BLACK FRIDAY - HotSpot</title>
+</head>
+<body>
+  <header>
+    <div id="logo">
+      <img src="./assets/Logo.svg" alt="Logo HotSpot">
+    </div>
+    <div id="menu">
+      <ul>
+        <li>Feminino</li>
+        <li>Masculino</li>
+        <li>Unissex</li>
+        <li>Infantil</li>
+        <li><img src="./assets/heart-icon.svg" alt="heart icon"></li>
+        <li><img src="./assets/bag-icon.svg" alt=""></li>
+        <li><img src="./assets/avatar.svg" alt=""></li>
+      </ul>
+    </div>
+  </header>
+  <main>
+    <div id="top-main">
+
+      <div class="big-tag">
+        <div class="bf-text">
+          <p>BLACK</p>
+          <p>FRIDAY</p>
+        </div>
+        <img src="./assets/Polygon.svg" alt="Tag">
+      </div>
+
+      <div id="form-tag">
+        <div class="little-ball">
+          <img src="./assets/Ellipse1.svg" alt="">
+        </div>
+        <div class="form-side">
+          <h2>Cadastre aqui seu melhor email para receber as ofertas:</h2>
+          <form action="#">
+            <label for="name">Digite abaixo o seu nome:</label>
+            <input type="text" placeholder="Ana Silveira" name="name">
+            <br>
+            <label for="email">Digite abaixo o seu email:</label>
+            <input type="text" placeholder="exemplo@email.com" name="email">
+            <div class="button-separation">
+              <button id="button1" onClick="textChange()">Cadastrar</button>
+            </div>
+          </form>
+        </div>
+        <div class="barcodes">
+          <img src="./assets/big-barcode.svg" alt="big-barcode">
+        </div>
+      </div>
+    </div>
+
+    <div id="middle-main">
+      <div class="text">
+        <p>Na Black Friday da HotSpot você encontra as melhores opções de calçado, com os melhores preços!</p>
+      </div>
+      <img src="./assets/woman.svg" alt="Smiling-woman">
+    </div>
+
+
+    <div id="bottom-main">
+      <div class="products-tags">
+        
+        <div class="tag">
+          <div class="form-side">
+            <div class="little-ball">
+              <img src="./assets/Ellipse2.svg" alt="Small ellipse">
+            </div>
+            <h2>Sapato Social <br> Giovanni - Preto</h2>
+            <div class="figures-back">
+              <img src="./assets/SapatoSocial.svg" alt="SapatoSocial">
+            </div>
+            <div class="button-separation">
+              <button>Confira</button>
+            </div>
+          </div>
+          <div class="barcodes">
+            <img src="./assets/small-barcode.svg" alt="small-barcode"> 
+          </div>
+        </div>
+
+        <div class="tag">
+          <div class="form-side">
+            <div class="little-ball">
+              <img src="./assets/Ellipse2.svg" alt="Small ellipse">
+            </div>
+            <h2>Salto Alto <br> Carpini - Vermelho </h2>
+            <div class="figures-back">
+              <img src="./assets/SaltoAlto.svg" alt="SaltoAlto">
+            </div>
+            <div class="button-separation">
+              <button>Confira</button>
+            </div>
+        </div>
+        <div class="barcodes">
+          <img src="./assets/small-barcode.svg" alt="small-barcode">
+        </div>
+      </div>
+      
+      
+        <div class="tag">
+          <div class="form-side">
+          <div class="little-ball">
+            <img src="./assets/Ellipse2.svg" alt="Small ellipse">
+          </div>
+          <h2>Bota Infantil <br> Babysteeps - Preta</h2>
+          <div class="figures-back">
+            <img src="./assets/BotaInfantil.svg" alt="BotaInfantil">
+          </div>
+          <div class="button-separation">
+            <button>Confira</button>
+          </div>
+          </div>
+          <div class="barcodes">
+            <img src="./assets/small-barcode.svg" alt="small-barcode">
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </main>
+  <footer>
+      <p>Copyright © 2021</p>
+      <p>Desenvolvido por Eduarda Almeida</p>
+      <p>Todos os direitos reservados</p>
+  </footer>
+</body>
+</html>
